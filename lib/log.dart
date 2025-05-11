@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:testapp/Home.dart';
+<<<<<<< HEAD
 import 'package:testapp/nav.dart';
+=======
+>>>>>>> c1fdf3707d54f0a18688a39ca5f617314c0ece40
 
 class login extends StatefulWidget {
   @override
@@ -150,7 +153,11 @@ class _loginApp extends State<login> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
+<<<<<<< HEAD
                             builder: (context) => nav(),
+=======
+                            builder: (context) => Home(),
+>>>>>>> c1fdf3707d54f0a18688a39ca5f617314c0ece40
                           ));
                     },
                     child: Padding(
